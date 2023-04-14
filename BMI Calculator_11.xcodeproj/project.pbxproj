@@ -14,6 +14,8 @@
 		E40A09D029E6D3A900AE2DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40A09CF29E6D3A900AE2DBB /* Assets.xcassets */; };
 		E40A09D329E6D3A900AE2DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40A09D129E6D3A900AE2DBB /* LaunchScreen.storyboard */; };
 		E40A09E029E992CC00AE2DBB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A09DF29E992CC00AE2DBB /* ResultViewController.swift */; };
+		E4E9811429E99B09000EAB43 /* CalculateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9811329E99B09000EAB43 /* CalculateBrain.swift */; };
+		E4E9811629E9A5CA000EAB43 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E9811529E9A5CA000EAB43 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E40A09D229E6D3A900AE2DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E40A09D429E6D3A900AE2DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E40A09DF29E992CC00AE2DBB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E4E9811329E99B09000EAB43 /* CalculateBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBrain.swift; sourceTree = "<group>"; };
+		E4E9811529E9A5CA000EAB43 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		E40A09DC29E6D50500AE2DBB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E4E9811329E99B09000EAB43 /* CalculateBrain.swift */,
+				E4E9811529E9A5CA000EAB43 /* BMI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 				E40A09CB29E6D3A800AE2DBB /* CalculateViewController.swift in Sources */,
 				E40A09C729E6D3A800AE2DBB /* AppDelegate.swift in Sources */,
 				E40A09C929E6D3A800AE2DBB /* SceneDelegate.swift in Sources */,
+				E4E9811429E99B09000EAB43 /* CalculateBrain.swift in Sources */,
+				E4E9811629E9A5CA000EAB43 /* BMI.swift in Sources */,
 				E40A09E029E992CC00AE2DBB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
